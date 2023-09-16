@@ -1,7 +1,6 @@
 package com.SpringBootWebApplication.FullStack.controller;
 
 import com.SpringBootWebApplication.FullStack.Communication.NewProductRequest;
-import com.SpringBootWebApplication.FullStack.entity.Category;
 import com.SpringBootWebApplication.FullStack.entity.Product;
 import com.SpringBootWebApplication.FullStack.exception.CategoryNotFoundException;
 import com.SpringBootWebApplication.FullStack.exception.ProductNotFoundException;
