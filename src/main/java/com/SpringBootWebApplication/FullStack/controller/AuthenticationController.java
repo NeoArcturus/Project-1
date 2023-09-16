@@ -6,8 +6,6 @@ import com.SpringBootWebApplication.FullStack.entity.User;
 import com.SpringBootWebApplication.FullStack.exception.BadCredentialsException;
 import com.SpringBootWebApplication.FullStack.security.TokenProvider;
 import com.SpringBootWebApplication.FullStack.service.UserService;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -33,10 +31,6 @@ public class AuthenticationController {
 
     @Autowired
     private UserDetailsService userDetailsService;
-
-
-
-    private static Logger logger = LoggerFactory.getLogger(AuthenticationController.class);
 
     @PostMapping("/login")
     public ResponseEntity<AuthResponse> login(@RequestBody AuthRequest request) {

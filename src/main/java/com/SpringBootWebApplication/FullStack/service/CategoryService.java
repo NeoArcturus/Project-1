@@ -1,7 +1,6 @@
 package com.SpringBootWebApplication.FullStack.service;
 
 import com.SpringBootWebApplication.FullStack.entity.Category;
-import com.SpringBootWebApplication.FullStack.entity.Product;
 import com.SpringBootWebApplication.FullStack.exception.CategoryExistsException;
 import com.SpringBootWebApplication.FullStack.exception.CategoryNotFoundException;
 import com.SpringBootWebApplication.FullStack.repository.CategoryRepository;

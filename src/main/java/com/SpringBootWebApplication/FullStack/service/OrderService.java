@@ -9,8 +9,6 @@ import com.SpringBootWebApplication.FullStack.exception.MultipleOrdersForSingleT
 import com.SpringBootWebApplication.FullStack.exception.OrderNotFoundException;
 import com.SpringBootWebApplication.FullStack.exception.TransactionDoesNotExistException;
 import com.SpringBootWebApplication.FullStack.repository.OrderRepository;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
